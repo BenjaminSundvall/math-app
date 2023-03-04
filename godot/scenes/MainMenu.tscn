@@ -1,0 +1,50 @@
+[gd_scene format=2]
+
+[node name="MainMenu" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="ColorRect" type="ColorRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="GridContainer" type="GridContainer" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+columns = 2
+
+[node name="Button" type="Button" parent="GridContainer"]
+margin_right = 538.0
+margin_bottom = 1198.0
+rect_min_size = Vector2( 100, 100 )
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "+"
+
+[node name="Button2" type="Button" parent="GridContainer"]
+margin_left = 542.0
+margin_right = 1080.0
+margin_bottom = 1198.0
+rect_min_size = Vector2( 100, 100 )
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "-"
+
+[node name="Button3" type="Button" parent="GridContainer"]
+margin_top = 1202.0
+margin_right = 538.0
+margin_bottom = 2400.0
+rect_min_size = Vector2( 100, 100 )
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "*"
+
+[node name="Button4" type="Button" parent="GridContainer"]
+margin_left = 542.0
+margin_top = 1202.0
+margin_right = 1080.0
+margin_bottom = 2400.0
+rect_min_size = Vector2( 100, 100 )
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "/"
